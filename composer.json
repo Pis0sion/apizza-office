@@ -1,0 +1,34 @@
+{
+    "name": "pis0sion/docx",
+    "description": "docx details",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "phpoffice/phpword": "dev-master",
+      "ext-json": "*",
+        "inhere/console": "^3.1",
+        "galbar/jsonpath": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pis0sion",
+            "email": "zihuang2010@126.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Pis0sion\\Docx\\": "src"
+        },
+        "files": [
+            "resources/description.php"
+        ]
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}

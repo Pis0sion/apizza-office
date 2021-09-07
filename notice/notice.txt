@@ -1,0 +1,2 @@
+exactHeight  :    固定行高
+layout :  自动重调尺寸以适应内容
